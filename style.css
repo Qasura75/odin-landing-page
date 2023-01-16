@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    border-style: solid;
+    background-color: aqua;
+ 
+}
+
+.header {
+    display: flex;
+}
+
+.links {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+}
