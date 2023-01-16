@@ -1,12 +1,55 @@
+body {
+    margin: 0px;
+}
+
 .container {
     display: flex;
-    border-style: solid;
+    flex-direction: column;
+    border: none;
     background-color: aqua;
- 
+    font-family: monospace;
+    color: #F9FAF8;
+
 }
 
 .header {
     display: flex;
+    background-color: #1F2937;
+    
+}
+
+.logo {
+    font-size: 24px;
+    flex: 1;
+}
+
+.links {
+    
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero {
+    display: inline;
+    background-color: #1F2937;
+}
+
+.hero1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-image {
+ 
 }
 
 .links {
@@ -15,4 +58,14 @@
 
 .hero {
     display: flex;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
 }
