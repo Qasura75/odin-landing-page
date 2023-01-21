@@ -5,26 +5,25 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    border: none;
-    background-color: aqua;
     font-family: monospace;
     color: #F9FAF8;
-
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
+    padding: 25px 200px;
     
 }
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     flex: 1;
 }
 
 .links {
-    
+    gap: 25px;
 }
 
 a {
@@ -34,13 +33,19 @@ a {
 }
 
 .hero {
-    display: inline;
+    display: flex;
     background-color: #1F2937;
+    padding: 100px 200px;
+    justify-content: center;
+}
+
+.text {
+    max-width: 500px;
 }
 
 .hero1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .hero2 {
@@ -49,7 +54,7 @@ a {
 }
 
 .hero-image {
- 
+    justify-content: end;
 }
 
 .links {
