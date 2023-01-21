@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: monospace;
-    color: #F9FAF8;
 }
 
 /*header*/
@@ -15,6 +14,7 @@ body {
     display: flex;
     background-color: #1F2937;
     padding: 25px 200px;
+    color: #F9FAF8;
 }
 
 .logo {
@@ -40,6 +40,7 @@ a {
     background-color: #1F2937;
     padding: 100px 200px;
     justify-content: center;
+    color: #F9FAF8;
 }
 
 .text {
@@ -71,15 +72,9 @@ button {
     border-radius: 8px;
 }
 
-
-
-
-
-
 /*information*/
 .information {
     flex-direction: column;
-    color: black;
     padding: 25px 200px;
 }
 
@@ -103,4 +98,37 @@ h2 {
     justify-content: center;
 }
 
+
+
+
+
+
+
 /*quote*/
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 100;
+    color: #1F2937;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.quotename {
+    display: flex;
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
+    margin: 0px;
+}
